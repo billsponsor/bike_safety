@@ -1,5 +1,5 @@
 # bike_safety
-90-819 Intermedaite Programming with Python Final Project 
+90-819 Intermediate Programming with Python Final Project 
 
 Team Members:
 Mika Tal
