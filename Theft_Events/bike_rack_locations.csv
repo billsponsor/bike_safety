@@ -1,0 +1,116 @@
+MatchID,Longitude,Latitude,Street,Building,Bike Capacity,Rack Style,Weather Coverage,Notes
+1,-79.99721507,40.44287929,7th Ave,Hefren-Tillotson,2,U-Rack,Outdoor,""
+3,-79.99646906,40.44253984,7th Ave,City Center,8,Multi,Outdoor,""
+5,-79.99793509,40.44159603,7th Ave,Rite Aid,2,U-Rack,Outdoor,""
+6,-79.99931363,40.44195892,7th Ave,GNC,2,U-Rack,Outdoor,""
+41,-79.99586044,40.44098565,Grant St & 6th Ave,Dunkin Donuts,2,U-Rack,Outdoor,""
+37,-79.99515782,40.44208979,Grant St & 7th Ave,Einstein's Bagels,2,U-Rack,Outdoor,""
+4,-79.99445539,40.44207484,7th Ave,Fed Courts,2,U-Rack,Outdoor,""
+36,-79.99492778,40.44361415,William Penn Pl,"behind Fed Building, opp Aug Wilson Ctr",10,Wave,Outdoor,private?
+39,-79.99504058,40.44180104,Grant St,US Steel Building,4,3 Rivers Design,Outdoor,across from entrance
+39,-79.99510752,40.4417032,Grant St,US Steel Building,4,3 Rivers Design,Outdoor,across from entrance
+40,-79.99537456,40.44129042,Grant St,US Steel Building Plaza,2,U-Rack,Outdoor,across from church
+42,-79.99552491,40.44088706,Grant St & 6th Ave,US Steel Building Plaza,24,Multi,Indoor/Covered,"multi u-rack, private"
+7,-80.00017785,40.44163319,Wood St,PNC Plaza,14,Multi,Outdoor,""
+9,-80.00137502,40.44104853,Fifth Ave,YMCA,8,U-Rack,Outdoor,""
+18,-80.00197272,40.44058961,Forbes Ave,Chipotle,2,U-Rack,Outdoor,""
+58,-80.00231382,40.44085469,Market Square,Diamond Market,6,3 Rivers Design,Outdoor,""
+59,-80.00253168,40.44093268,Market Square,Simple Greek,2,3 Rivers Design,Outdoor,""
+57,-80.00258081,40.44044189,Market Square,Primanti Bros,6,3 Rivers Design,Outdoor,""
+19,-80.0030684,40.44089003,Forbes Ave,Dunkin Donuts/Bikeshare,2,U-Rack,Outdoor,""
+21,-80.00330053,40.44097489,Forbes Ave,Franktuary?,2,U-Rack,Outdoor,""
+10,-80.00369429,40.44113526,Fifth Ave,Womens Center,2,U-Rack,Outdoor,""
+28,-80.00391656,40.43980446,Third Ave,1 PPG Place by Dino's,20,Multi,Outdoor,up steps
+29,-80.00601287,40.44008176,Boulevard of the Allies,PPA,6,3 Rivers Design,Outdoor,""
+22,-80.0015733,40.43941823,Fourth Ave,First National Bank,2,U-Rack,Outdoor,""
+27,-80.00200529,40.43894859,Third Ave,Point Park at Wood St,22,Multi + 3 Rivers Design,Indoor/Covered,right of 200 Wood
+30,-80.00175049,40.43827781,Boulevard of the Allies,Hundred Wood,4,3 Rivers Design,Outdoor,on sidewalk
+56,-80.00258501,40.43762477,Wood St,Starbucks,2,U-Rack,Outdoor,""
+35,-80.00140024,40.4375978,First Ave,Opp. Health Dept,8,Multi,Outdoor,""
+32,-80.00003246,40.43783539,Boulevard of the Allies,Caf ??,2,U-Rack,Outdoor,""
+25,-79.99940673,40.43815506,Third Ave,One Oxford Center,16,Multi,Indoor/Covered,inside garage
+51,-79.99802298,40.4373525,Grant St,"",2,U-Rack,Outdoor,""
+50,-79.99811931,40.43715398,Grant St & Boulevard of the Allies,Pastry/Coffee shop,2,U-Rack,Outdoor,Blvd side of corner
+49,-79.99871141,40.43624683,"",PNC Firstside,42,Multi,Outdoor,""
+47,-79.99684944,40.43681935,Ross St,200 Ross St,4,3 Rivers Design,Outdoor,by Third Ave
+46,-79.99616777,40.43784801,Ross St,County Office Building,2,U-Rack,Outdoor,next to??
+45,-79.99633849,40.4379162,Ross St,City-County Building,8,U-Rack,Outdoor,next to crosswalk
+15,-79.9971362,40.43854497,Forbes Ave,Grant St at City-County Building,8,3 Rivers Design,Outdoor,""
+16,-79.99750675,40.4388524,Forbes Ave,PNC,2,U-Rack,Outdoor,""
+17,-79.99805192,40.43906347,Forbes Ave,Crazy Mocha,2,U-Rack,Outdoor,""
+12,-79.99779696,40.43969769,Fifth Ave,Macy's/Wm Penn,2,U-Rack,Outdoor,""
+13,-79.99746977,40.43956819,Fifth Ave,Union Trust,2,U-Rack,Outdoor,""
+44,-79.99580821,40.4387138,Ross St,County Court Door,2,U-Rack,Indoor/Covered,private
+43,-79.99463575,40.43877592,6th St & 5th Ave,"",8,Wave,Indoor/Covered,private
+48,-79.99677225,40.43534458,First Ave,T Station at PNC Lot,14,Multi,Outdoor,""
+60,-80.0058876,40.44274208,Gateway Center,"",8,Multi,Outdoor,""
+61,-80.00451904,40.44239933,Gateway Center,"",4,Multi,Outdoor,""
+62,-80.00578781,40.44162374,Gateway Center,"",8,Multi,Outdoor,""
+63,-80.00584384,40.44096716,Liberty Ave,"",22,U-Rack,Outdoor,""
+64,-80.00441768,40.44123335,Liberty Ave,"",8,U-Rack,Outdoor,""
+65,-80.00426691,40.44185602,Liberty Ave,"",14,U-Rack,Outdoor,""
+66,-79.99357973,40.44484088,11th St,"",14,"",Outdoor,""
+67,-80.00339363,40.44139634,Liberty Ave,"",4,U-Rack,Outdoor,""
+68,-80.00030232,40.44248152,Liberty Ave,"",10,U-Rack,Outdoor,""
+69,-79.99650431,40.44319302,Wood St,at Liberty,2,"",Outdoor,""
+70,-79.99423673,40.44489605,Penn Ave,DLCC,6,"",Outdoor,""
+71,-79.99539548,40.44432532,10th St,Westin Hotel,6,"",Outdoor,""
+72,-79.99788925,40.44379416,Penn Ave,"",2,Public Art,Outdoor,""
+73,-79.99885319,40.44369794,Penn Ave,"",10,"",Indoor/Covered,in parking garge
+74,-79.99917877,40.44363798,Penn Ave,"",5,"",Outdoor,""
+75,-79.99836116,40.44274217,Liberty Ave,"",3,Public Art,Outdoor,""
+76,-79.99788947,40.44286456,Liberty Ave,"",2,Public Art,Outdoor,""
+77,-79.99719149,40.4432178,Liberty Ave,"",2,"",Outdoor,""
+78,-80.00150375,40.44108934,5th Ave,"",2,"",Outdoor,""
+79,-80.000842,40.44135847,PNC Plaza,"",4,"",Outdoor,""
+80,-79.99676299,40.44309146,Smithfield St,"",2,"",Outdoor,""
+81,-79.99653539,40.44281462,7th Ave,"",2,"",Outdoor,""
+82,-79.99633347,40.44274704,7th Ave,"",2,"",Outdoor,""
+83,-79.99685408,40.44264157,Smithfield St,"",2,"",Outdoor,""
+84,-79.99743051,40.44177704,Smithfield St,"",2,"",Outdoor,""
+85,-79.99756662,40.44155511,Smithfield St,"",2,"",Outdoor,""
+86,-79.99795303,40.4409803,Smithfield St,"",2,"",Outdoor,""
+87,-79.99952278,40.44034194,5th Ave,"",2,"",Outdoor,""
+88,-79.9991291,40.43920071,Smithfield St,"",2,"",Outdoor,""
+89,-79.99930741,40.43893505,Smithfield St,"",2,"",Outdoor,""
+90,-80.00038334,40.43733521,Smithfield St,"",2,"",Outdoor,""
+91,-80.00024005,40.43752869,Smithfield St,"",2,"",Outdoor,""
+92,-80.00057253,40.43702166,Smithfield St,"",2,"",Outdoor,""
+93,-79.99700344,40.43888358,Grant St,"",2,"",Outdoor,""
+94,-79.9977636,40.43772944,Grant St,"",2,"",Outdoor,""
+96,-79.99717304,40.43835589,Grant St,City-County Building,10,"",Indoor/Covered,in atrium
+95,-79.99729203,40.43818196,Grant St,City-County Building,10,"",Indoor/Covered,in atrium
+97,-79.99631559,40.44033616,Grant St,"",2,"",Outdoor,""
+109,-80.000298,40.44007677,PNC Tower,PNC Tower garage,92,Standing & Hanging Racks,Indoor/Covered,"inside garage, mult locations"
+98,-80.00098604,40.44202577,Liberty Ave,One PNC,2,Public Art,Outdoor,""
+99,-80.00217083,40.4430324,6th St,India Palace Cuisine,2,Public Art,Outdoor,""
+100,-80.00140267,40.44301161,Penn Ave,Meat & Potatoes,2,Public Art,Outdoor,""
+101,-80.0015046,40.44298102,Penn Ave,Pittsburgh Public Theater,2,Public Art,Outdoor,""
+102,-80.00043256,40.44310917,Penn Ave,Penn and 7th St,2,Public Art,Outdoor,""
+103,-80.00027802,40.44352692,7th St,Across Katz,2,Public Art,Outdoor,""
+104,-80.00066503,40.44390552,7th St,Social House,2,Public Art,Outdoor,""
+105,-79.99709649,40.44399642,Penn Ave,Seviche,2,Public Art,Outdoor,""
+106,-79.99686456,40.44405813,Penn Ave,Sienna Mercato,2,Public Art,Outdoor,""
+107,-79.99666021,40.44410501,Penn Ave,August Henry's,2,Public Art,Outdoor,""
+108,-79.99861347,40.44373809,Penn Ave,Future Tenant,2,Public Art,Outdoor,""
+110,-79.99628825,40.44650746,10th St,DLCC,3,Wave,Indoor/Covered,""
+111,-79.99680122,40.44635924,10th St,DLCC,3,Wave,Indoor/Covered,""
+112,-79.99742435,40.44230695,Smithfield St,Smithfield St Garage,22,3 Rivers Design,Indoor/Covered,""
+113,-79.99871197,40.44513624,Fort Duquesne Blvd,CAPA,8,Multi,Outdoor,""
+114,-80.00635549,40.44268233,Gateway Center,Gateway Center,4,Wheel-Only,Outdoor,""
+115,-80.00727545,40.44243793,Gateway Center,Gateway Center,8,Wheel-Only,Outdoor,""
+116,-80.00931224,40.44258881,Point State Park,"",12,U-Rack,Outdoor,near Fort Duquesne Bridge
+117,-80.01225291,40.44213203,Point State Park,"",10,Multi,Outdoor,near fountain
+118,-80.00938049,40.44113349,Point State Park,"",10,Multi,Outdoor,outside Fort Pitt Museum entrance
+119,-80.01024487,40.44062795,Point State Park,"",12,U-Rack,Outdoor,"behind Fort Pitt Museum, blockhouse side"
+120,-80.00564913,40.43972796,Boulevard of the Allies,"",2,U-Rack,Outdoor,""
+121,-80.00501281,40.43982381,Stanwix St,"",2,U-Rack,Outdoor,""
+122,-80.00536098,40.43950715,Stanwix St,United Steelworkers Building,26,Multi,Indoor/Covered,""
+123,-80.00603834,40.43877289,Stanwix St,First Niagra,10,Multi,Indoor/Covered,""
+125,-80.0019355,40.43859191,Wood St,"",2,U-Rack,Outdoor,""
+126,-79.99895768,40.44027074,5th Ave,"",2,U-Rack,Outdoor,""
+127,-79.99782072,40.44079044,Oliver St,Mellon Sq Garage,16,3 Rivers Design,Indoor/Covered,"inside garage, southern entrance"
+128,-80.00117544,40.43942012,Wood St,"",2,U-Rack,Outdoor,""
+129,-80.00107344,40.43986903,Wood St,"",2,U-Rack,Outdoor,""
+130,-80.00253103,40.43937051,Third Ave,Third Ave Garage,16,"",Indoor/Covered,in garage
+131,-80.00278286,40.43857901,Boulevard of the Allies,Wood-Allies Garage,6,"",Indoor/Covered,in garage
