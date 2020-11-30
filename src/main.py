@@ -39,7 +39,7 @@ def getAddresses():
         destAddress = CurrentAddress
     else:
         destAddress = input("Enter destination address (number, street name): ")
-    return(destAddress)
+    return(CurrentAddress, destAddress)
 
 # Get user input- type of coverage
 def coverageType():
