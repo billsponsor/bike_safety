@@ -11,7 +11,7 @@ from geopy.geocoders import Nominatim
 import requests
 from bs4 import BeautifulSoup
 
-
+#welcome screen for the user
 def welcome():
     print('Welcome to Bike Safe!')
     print('Give us your address and we will tell you where to park your bike!')
@@ -57,14 +57,15 @@ def coverageType():
         choice = 'NP'
     return (choice)
 
+#takes a physical address and returns the (long, lat) coordinates
 def addtoLoc(destAddress):    
     locator = Nominatim(user_agent="myGeocoder")
     location = locator.geocode(destAddress+',Pittsburgh')
     destCoor=(location.longitude,location.latitude)
     return destCoor
 
-#take coordinates and return bike rack lat/long within a .25 mile radius and if inside or outside
-   
+#take coordinates and return bike rack lat/long within a .25
+#mile radius and if inside or outside
 def rackLoc(destCoor,choice): 
     racks_df = pd.read_csv('bike_rack_location.csv')
     racks_df = racks_df[['Longitude', 'Latitude', 'Weather Coverage']] 
@@ -135,6 +136,8 @@ def propGroups(locations, min, max, third):
             groups.append('High')
     return groups
 
+#prompt user for selection of bike rack 
+#after seeing option's distance and safety rating 
 def choiceSelect(destRacks):
     numChoices = len(destRacks)
     pref = int(input("Please select bike rack choice (0-" + str(numChoices)
@@ -162,6 +165,23 @@ def getDirections(long_start, lat_start, long_end, lat_end):
     directions_format = directions.split("\n")
     directions_format = [i for i in directions_format if i]
     return directions_format 
+
+#assigning the found safety ratings to the list of racks 
+#returned to the user, from which they select their preference 
+#to then get directions
+def safetyRatingAssignment(destRacks, locations_thefts):
+    groupAssign = []
+    for i in range(len(destRacks)):
+        longCheck = destRacks.iloc[i][0]
+        latCheck = destRacks.iloc[i][1]
+        for s in range(len(locations_thefts)):
+            theftLong = locations_thefts.iloc[s][1]
+            theftLat = locations_thefts.iloc[s][0]
+            if longCheck == theftLong and latCheck == theftLat:
+                groupAssign.append(locations_thefts.iloc[s][2])
+    destRacks["Group"] = groupAssign
+    return destRacks
+    
 
 print("<please wait ~1min while we load>")
 locations = findLocationsc()
@@ -201,16 +221,7 @@ for i in addresses:
         lat_end = endCoords[1]
 coveragePref = coverageType()
 destRacks = rackLoc(endCoords, coveragePref)
-groupAssign = []
-for i in range(len(destRacks)):
-    longCheck = destRacks.iloc[i][0]
-    latCheck = destRacks.iloc[i][1]
-    for s in range(len(locations_thefts)):
-        theftLong = locations_thefts.iloc[s][1]
-        theftLat = locations_thefts.iloc[s][0]
-        if longCheck == theftLong and latCheck == theftLat:
-            groupAssign.append(locations_thefts.iloc[s][2])
-destRacks["Group"] = groupAssign
+destRacks = safetyRatingAssignment(destRacks, locations_thefts)
 print(destRacks)
 pref = choiceSelect(destRacks)
 for i in range(len(destRacks)):
