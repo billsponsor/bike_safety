@@ -153,7 +153,7 @@ def findLocationsc():
 
 #finding directions between input start and end coordinates 
 #params: long_start, lat_start: starting coordinates; 0 index column in findLocations() is long
-#params: long_end, lat_end: ending coordiantes
+#params: long_end, lat_end: ending coordinates
 #return: list of directions 
 def getDirections(long_start, lat_start, long_end, lat_end):
     page = requests.get("https://www.mapquest.com/directions/list/1/near-" + str(lat_start) + ","
@@ -184,20 +184,27 @@ def safetyRatingAssignment(destRacks, locations_thefts):
     
 
 print("<please wait ~1min while we load>")
+#initializing theft data for all bike rack options
 locations = findLocationsc()
 locations_thefts = locations.copy(deep=True)
 thefts = allTheft(locations)
 locations_thefts["Thefts"] = thefts
 totalThefts = locations_thefts["Thefts"].sum()
+#finding the proportion of total thefts 
+#that occurred at each rack 
 props = proportionTheft(locations_thefts)
 locations_thefts["Proportion"] = props
 locations_thefts.sort_values(by='Proportion', inplace=True, ascending=False)
+#finding max/min proportions of thefts
+#to then create 3 risk groups 
 prop_min = locations_thefts["Proportion"].min()
 prop_max = locations_thefts["Proportion"].max()
 interval = prop_max - prop_min
 interval_third = interval/3 
+#creating risk groups from intervals
 prop_groups = propGroups(locations_thefts, prop_min, prop_max, interval_third)
 locations_thefts["Group"] = prop_groups 
+#stripping down df to just cols we care about 
 locations_thefts = locations_thefts[["Latitude","Longitude","Group"]]
 Weather()
 welcome()
@@ -209,6 +216,7 @@ lat_start= 0
 long_end= 0
 lat_start = 0
 counter = 1
+#saving the coordinates from user addresses
 for i in addresses:
     if counter == 1:
         startCoords = addtoLoc(i)
@@ -219,15 +227,20 @@ for i in addresses:
         endCoords = addtoLoc(i)
         long_end = endCoords[0]
         lat_end = endCoords[1]
+#saving user coverage preference 
 coveragePref = coverageType()
+#return list of bike racks near destination
 destRacks = rackLoc(endCoords, coveragePref)
+#assign safety rating to list of bike racks
 destRacks = safetyRatingAssignment(destRacks, locations_thefts)
 print(destRacks)
 pref = choiceSelect(destRacks)
+#finding coords of selected bike rack 
 for i in range(len(destRacks)):
     if i == pref:
         long_end = destRacks.iloc[i][0]
         lat_end = destRacks.iloc[i][1]
+#return directions 
 directions_format = getDirections(long_start, lat_start, long_end, lat_end)
 for i in directions_format:
     print(i)
